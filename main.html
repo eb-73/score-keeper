@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta charset="utf-8">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+  <!-- icon -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="main.css"/>
+  <!-- link tags including css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Script tags including jquery and js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+
+<div class="main d-flex flex-column justufy-content-center rounded align-content-center mt-4 mx-auto">
+  <div class="card-image mb-2">
+    <img class="sub1 img-fluid" src="ping.png">
+    <h4 class="ml-2">Ping Pong Score Keeper</h4>
+  </div>
+  <div class="card-detail d-flex flex-column justufy-content-center rounded align-content-center ">
+
+  
+  <div class="head ml-2">
+    <span id="one">0</span> to <span id="tow">0</span>
+  </div>
+  <div class="play form-inline form-group ml-2">
+    <label>Playing To
+      <select id="game" class=" ml-2 form-control form-control-sm">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+      </select>
+    </label>
+  </div>
+  <div class="but mb-1 d-flex justify-content-around align-items-center">
+    <button class="btn1 btn btn-primary ">+1 Player one</button>
+    <button class="btn2 btn btn-info ">+1 Player two</button>
+    <button class="btn3 btn btn-danger ">Reset</button>
+  </div>
+
+</div>
+</div>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+    </html>
